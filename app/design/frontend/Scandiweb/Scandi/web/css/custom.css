@@ -1,0 +1,10 @@
+.header-banner {
+    border: 2px solid darkgray;
+    border-radius: 8px;
+    padding:25px !important;
+    margin:20px auto;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+

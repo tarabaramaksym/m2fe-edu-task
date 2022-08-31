@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/custom.css" />
+    </head>
+    <body>
+        <referenceContainer name="header.container">
+            <container name="header-banner-container" as="header-banner-container" label="Page Custom
+Content" htmlTag="div" htmlClass="header content header-banner" before="header-wrapper">
+                <block class="Magento\Framework\View\Element\Template"
+                       name="header-banner" template="Magento_Theme::html/header-banner.phtml" />
+            </container>
+        </referenceContainer>
+    </body>
+</page>
