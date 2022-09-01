@@ -8,7 +8,8 @@
         <referenceContainer name="header.container">
             <container name="header-banner-container" as="header-banner-container" label="Page Custom
 Content" htmlTag="div" htmlClass="header content header-banner" before="header-wrapper">
-                <block class="Magento\Framework\View\Element\Template"
+                <block ifconfig="carriers/freeshipping/active"
+                       class="Magento\Framework\View\Element\Template"
                        name="header-banner" template="Magento_Theme::html/header-banner.phtml"/>
             </container>
         </referenceContainer>
